@@ -20,6 +20,7 @@ class RegisterScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         titleColor: darkGreen,
         iconColor: darkGreen,
+        titleFontSize: 28,
         onBackPressed: () {
           Navigator.pop(context); // Acción al presionar el botón de retroceso
         },
